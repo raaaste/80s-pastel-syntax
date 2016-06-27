@@ -7,19 +7,48 @@
     color: @constant;
   }
 
+  .meta.structure.array.json {
+    .punctuation.definition.dictionary.json{
+      color: @lightest-grey;
+    }
+    .punctuation.separator.array.json{
+      color: @lightest-grey;
+    }
+    .punctuation.definition.array.json{
+      color: @green;
+    }
+  }
+
   .meta.structure.dictionary.json {
 
     .string.quoted.json {
       color: @tag;
     }
 
+    .punctuation.definition.dictionary.json{
+      color: @lightest-grey;
+    }
+    .punctuation.separator.array.json{
+      color: @lightest-grey;
+    }
     .meta.structure.dictionary.value.json {
       // background-color: pink;
+
+      .punctuation.separator.dictionary.key-value.json{
+        color: @lightest-grey;
+      }
+
+      .punctuation.separator.dictionary.pair.json{
+        color: @lightest-grey;
+      }
+      .constant.numeric.json{
+        color: @purple;
+      }
       .string.quoted.json {
-        color: @code-font-color;
+        color: @yellow;
 
         .punctuation.definition.string {
-          color: @code-font-color;
+          color: @yellow;
         }
       }
 
@@ -27,21 +56,31 @@
         // background-color: yellow;
 
         .string.quoted.json {
-          color: @tag;
+          color: @cyan;
 
           .punctuation.definition.string {
-            color: @tag;
+            color: @yellow;
           }
         }
 
         .meta.structure.dictionary.value.json {
             // background-color: orange;
+            .punctuation.separator.dictionary.pair.json{
+              color: @lightest-grey;
+            }
+            .punctuation.separator.dictionary.key-value.json{
+              color: @lightest-grey;
+            }
+            .constant.numeric.json{
+              color: @purple;
+            }
 
             .string.quoted.json {
-              color: @code-font-color;
+              color: @yellow;
+
 
               .punctuation.definition.string {
-                color: @code-font-color;
+                color: @yellow;
               }
             }
         }
