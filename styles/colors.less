@@ -20,53 +20,59 @@
 */
 
 /////////////// COLORS ////////////////
-@blue: rgb(85,181,219);
-@green: rgb(55,159,122);
-@yellow: rgb(230,205,105);
-@red: rgb(255,0,0);
-@purple: rgb(122,167,214);
+@blue: #4b88eb;
+@green: #39e949;
+@yellow: #f9c536;
+@red: #F15056;
+@purple: #f996e2;
+@cyan: #94c2e4;
+@background: #2e2e2e;
+@foreground: #cbcbcb;
+@grey: #717171;
+@lighter-grey: #cdcdcd;
+@lightest-grey: #f9f9f9;
 
 ///// LANGUAGE CATEGORICAL COLORS /////
-@variable-definitions: rgb(221,254,254);//rgb(255,237,201);
-@variable-call: rgb(255,171,171);
-@variable-function: rgb(227,170,214);
-@language-comments: rgb(171,228,255);
-@language-keywords: rgb(218,221,251);
-@language-enitity: rgb(147,223,184);
-@language-misc: rgb(255,140,148);
+@variable-definitions: @cyan;//rgb(255,237,201);
+@variable-call: @cyan;
+@variable-function: @purple;
+@language-comments: @grey;
+@language-keywords: @green;
+@language-enitity: @purple;
+@language-misc: @red;
 
 /////////////// GUTTER ///////////////
-@gutter-text: rgb(104,115,123);
-@gutter-text-highlight: rgb(255,237,201);
-@gutter-background: lighten(@code-background, 5%);
-@gutter-background-highlight: rgb(181,216,235);
+@gutter-text: @foreground;
+@gutter-text-highlight: @foreground;
+@gutter-background: @code-background;
+@gutter-background-highlight: darken(@gutter-background, 5%);
 
 ///////////// CODE VIEW //////////////
-@code-background: rgb(55,59,68); // editor background
+@code-background: @background; // editor background
 @code-font: Source Code Pro;
-@code-font-color: rgb(255,240,211); // default editor text
-@css-code-font-color: rgb(218,221,251); // special case for css
+@code-font-color: @foreground; // default editor text
+@css-code-font-color: @lightest-grey; // special case for css
 
 //////////// SYNTAX COLORS ////////////
 
-// commnets ---------------
+// comments ---------------
 @comment: @language-comments;
 @comment-bg: none;
 @comment-punc: @language-comments;
 // ------------------------
 
 // Data -------------------
-@string:   @variable-call;
+@string:   @yellow;
 @constant: @variable-call;       // includes literals
-@variable: @variable-function;   // doesnt include class variables
+@variable: @cyan;   // doesnt include class variables
 @keyword:  @language-keywords;   // language keywords 'include' 'import'
-@storage:  @language-enitity;    // data types
+@storage:  @yellow;    // data types
 @support:  @variable-function;   // function calls
 @entity:   @language-enitity;    // function definitions
 @function-param: @language-misc;
 // ------------------------
 
-@meta: rgb(181,216,235);
+@meta: @cyan;
 @error: @red;
 @regex: @string;
 @numeric: @string;
@@ -78,7 +84,7 @@
 @invisible: rgba(255,255,255,0.1);
 @guides: rgba(245,250,255,0.04);
 @cursor-color: @code-font-color;
-@cursor-width: 2px;
+@cursor-width: 1px;
 @selected: rgba(85,181,219,0.6);
 @selected-border: rgba(85,181,219,0.9);
 @selected-line: rgba(0,0,0,0.2);
@@ -93,14 +99,14 @@
 @inline: lighten(@blue, 25%);
 
 @entity-function: @blue;
-@brackets: rgb(181,216,235);
-@punctuation: rgb(181,216,235);
+@brackets: @lightest-grey;
+@punctuation: @cyan;
 
 @search-bg: transparent;
-@search-border: solid 1px @blue;
+@search-border: solid 1px @grey;
 
 @search-active-bg: @blue;
-@search-active-border: solid 1px @blue;
+@search-active-border: solid 1px @lightest-grey;
 
 @search-item-border: @blue;
 @search-item-bg: @red;

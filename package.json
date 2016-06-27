@@ -1,19 +1,15 @@
 {
-  "name": "80s-pastel-syntax",
+  "name": "raaste-syntax",
   "theme": "syntax",
-  "version": "1.2.0",
-  "description": "A colorful trubute to the 80's",
+  "version": "1.0.0",
+  "description": "A syntax theme inspired by the Flatabulous Ubuntu theme, based on 80s-pastel-syntax.",
   "keywords": [
     "syntax",
     "theme",
-    "80s",
-    "80's",
-    "colorful",
-    "dark",
-    "seti",
-    "pastel"
+    "flatabulous",
+    "raaste"
   ],
-  "repository": "https://github.com/Kelvinrr/80s-pastel-syntax.git",
+  "repository": "https://github.com/atom/raaste-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

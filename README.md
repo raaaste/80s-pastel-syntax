@@ -1,17 +1,5 @@
-# 80s-pastel-syntax
-A colorful tribute to the 80's :blue_heart:
+# raaste-syntax theme
 
-![palette](https://raw.githubusercontent.com/Kelvinrr/80s-pastel-syntax/master/80s%20pattern.png)
+A short description of your theme.
 
-# Install
-
-```console
-apm install 80s-pastel-syntax
-```
-
-#Images
-![palette](https://raw.githubusercontent.com/Kelvinrr/80s-pastel-syntax/master/screenshot_1.png)
-![palette](https://raw.githubusercontent.com/Kelvinrr/80s-pastel-syntax/master/screenshot_2.png)
-![palette](https://raw.githubusercontent.com/Kelvinrr/80s-pastel-syntax/master/screenshot_3.png)
-![palette](https://raw.githubusercontent.com/Kelvinrr/80s-pastel-syntax/master/screenshot_4.png)
-![fasion](https://raw.githubusercontent.com/Kelvinrr/80s-pastel-syntax/master/80s-fashion-pastels.png)
+![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
