@@ -1,5 +1,5 @@
 # raaste-syntax theme
 
-A short description of your theme.
+A syntax theme inspired by the Flatabulous Ubuntu theme, based on 80s-pastel-syntax.
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+![A screenshot](https://raw.githubusercontent.com/raaaste/raaste-syntax/master/screenshot.png)
