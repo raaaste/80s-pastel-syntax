@@ -1,7 +1,7 @@
 {
   "name": "raaste-syntax",
   "theme": "syntax",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A syntax theme inspired by the Flatabulous Ubuntu theme, based on 80s-pastel-syntax.",
   "keywords": [
     "syntax",
